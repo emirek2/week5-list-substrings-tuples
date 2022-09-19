@@ -13,11 +13,23 @@ print(computer[4])
 # Find and display the index of the last occurrence of the word "practice" in the following sentence:
 newSentence = "In theory, theory and practice are the same. In practice, they are not."
 print(newSentence.rindex("practice"))
-
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
+my_list = ["bay","ddaa", 34, 56,78,89,102]
+# .append will add things to the end
+my_list.append("jewelry")
+print(my_list)
+my_list.pop()
+# .pop removes something from the end
+print(my_list)
+my_list.remove("ddaa")
+#.remove removes an item at a certian index
+print(my_list)
+my_list.insert(3, "bobba bobba")
+#.insert insert at certian index
+print(my_list)
+
 
 
 # Add the element "motorcycle" to the following list of means of transportation:
